@@ -1,5 +1,5 @@
 ﻿    function startClock() {
-    var seconds = 300;
+    var seconds = 70;
       setInterval(function() {
         var minutes = Math.round((seconds - 30)/60);
         var remainingSeconds = seconds % 60;
