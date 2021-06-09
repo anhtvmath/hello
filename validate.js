@@ -2,9 +2,9 @@
     var tensinhvien = document.getElementById("studentname").value;
     var masinhvien = document.getElementById("studentid").value;
     var username = ["Lan Anh","Việt Anh","Văn Điệp"];
-    var password_user = ["LA81","VA83","vd123"];
+    var password_user = ["LA1981","VA1983","vd12345"];
     var customer = ["Nguyễn Liễu","Nguyễn Lan","Đức Lợi"];
-    var password_customer = ["n90","nl1234","dl1234"];
+    var password_customer = ["n1990","nl1234","dl12345"];
     if (tensinhvien == customer[0] && masinhvien == password_customer[0] || tensinhvien == customer[1] && masinhvien == password_customer[1] || tensinhvien == customer[2] && masinhvien == password_customer[2]) {
                 alert("Tài khoản của bạn đã hết hạn sử dụng. Xin vui lòng đăng ký để sử dụng phần mềm!");
     } 
