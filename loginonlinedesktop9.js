@@ -1,6 +1,6 @@
 ﻿function Login(form) {
 username = new Array("ptit");
-password = new Array("2468");
+password = new Array("246810");
 page = "home.html";
 if (form.username.value == username[0] && form.password.value == password[0]) {
 self.location.href = page;
